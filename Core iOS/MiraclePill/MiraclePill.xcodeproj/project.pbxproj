@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB5C89571E60BC1400149D32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5C89561E60BC1400149D32 /* AppDelegate.swift */; };
+		AB5C89591E60BC1400149D32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5C89581E60BC1400149D32 /* ViewController.swift */; };
+		AB5C895C1E60BC1400149D32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5C895A1E60BC1400149D32 /* Main.storyboard */; };
+		AB5C895E1E60BC1400149D32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5C895D1E60BC1400149D32 /* Assets.xcassets */; };
+		AB5C89611E60BC1400149D32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5C895F1E60BC1400149D32 /* LaunchScreen.storyboard */; };
+		AB5C896C1E60BC1400149D32 /* MiraclePillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5C896B1E60BC1400149D32 /* MiraclePillTests.swift */; };
+		AB5C89771E60BC1400149D32 /* MiraclePillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5C89761E60BC1400149D32 /* MiraclePillUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB5C89681E60BC1400149D32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB5C894B1E60BC1400149D32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5C89521E60BC1400149D32;
+			remoteInfo = MiraclePill;
+		};
+		AB5C89731E60BC1400149D32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB5C894B1E60BC1400149D32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5C89521E60BC1400149D32;
+			remoteInfo = MiraclePill;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB5C89531E60BC1400149D32 /* MiraclePill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiraclePill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5C89561E60BC1400149D32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB5C89581E60BC1400149D32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB5C895B1E60BC1400149D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB5C895D1E60BC1400149D32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB5C89601E60BC1400149D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB5C89621E60BC1400149D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB5C89671E60BC1400149D32 /* MiraclePillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiraclePillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5C896B1E60BC1400149D32 /* MiraclePillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiraclePillTests.swift; sourceTree = "<group>"; };
+		AB5C896D1E60BC1400149D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB5C89721E60BC1400149D32 /* MiraclePillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiraclePillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5C89761E60BC1400149D32 /* MiraclePillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiraclePillUITests.swift; sourceTree = "<group>"; };
+		AB5C89781E60BC1400149D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB5C89501E60BC1400149D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5C89641E60BC1400149D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5C896F1E60BC1400149D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB5C894A1E60BC1400149D32 = {
+			isa = PBXGroup;
+			children = (
+				AB5C89551E60BC1400149D32 /* MiraclePill */,
+				AB5C896A1E60BC1400149D32 /* MiraclePillTests */,
+				AB5C89751E60BC1400149D32 /* MiraclePillUITests */,
+				AB5C89541E60BC1400149D32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB5C89541E60BC1400149D32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB5C89531E60BC1400149D32 /* MiraclePill.app */,
+				AB5C89671E60BC1400149D32 /* MiraclePillTests.xctest */,
+				AB5C89721E60BC1400149D32 /* MiraclePillUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB5C89551E60BC1400149D32 /* MiraclePill */ = {
+			isa = PBXGroup;
+			children = (
+				AB5C89561E60BC1400149D32 /* AppDelegate.swift */,
+				AB5C89581E60BC1400149D32 /* ViewController.swift */,
+				AB5C895A1E60BC1400149D32 /* Main.storyboard */,
+				AB5C895D1E60BC1400149D32 /* Assets.xcassets */,
+				AB5C895F1E60BC1400149D32 /* LaunchScreen.storyboard */,
+				AB5C89621E60BC1400149D32 /* Info.plist */,
+			);
+			path = MiraclePill;
+			sourceTree = "<group>";
+		};
+		AB5C896A1E60BC1400149D32 /* MiraclePillTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB5C896B1E60BC1400149D32 /* MiraclePillTests.swift */,
+				AB5C896D1E60BC1400149D32 /* Info.plist */,
+			);
+			path = MiraclePillTests;
+			sourceTree = "<group>";
+		};
+		AB5C89751E60BC1400149D32 /* MiraclePillUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB5C89761E60BC1400149D32 /* MiraclePillUITests.swift */,
+				AB5C89781E60BC1400149D32 /* Info.plist */,
+			);
+			path = MiraclePillUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB5C89521E60BC1400149D32 /* MiraclePill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5C897B1E60BC1400149D32 /* Build configuration list for PBXNativeTarget "MiraclePill" */;
+			buildPhases = (
+				AB5C894F1E60BC1400149D32 /* Sources */,
+				AB5C89501E60BC1400149D32 /* Frameworks */,
+				AB5C89511E60BC1400149D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiraclePill;
+			productName = MiraclePill;
+			productReference = AB5C89531E60BC1400149D32 /* MiraclePill.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB5C89661E60BC1400149D32 /* MiraclePillTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5C897E1E60BC1400149D32 /* Build configuration list for PBXNativeTarget "MiraclePillTests" */;
+			buildPhases = (
+				AB5C89631E60BC1400149D32 /* Sources */,
+				AB5C89641E60BC1400149D32 /* Frameworks */,
+				AB5C89651E60BC1400149D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB5C89691E60BC1400149D32 /* PBXTargetDependency */,
+			);
+			name = MiraclePillTests;
+			productName = MiraclePillTests;
+			productReference = AB5C89671E60BC1400149D32 /* MiraclePillTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB5C89711E60BC1400149D32 /* MiraclePillUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5C89811E60BC1400149D32 /* Build configuration list for PBXNativeTarget "MiraclePillUITests" */;
+			buildPhases = (
+				AB5C896E1E60BC1400149D32 /* Sources */,
+				AB5C896F1E60BC1400149D32 /* Frameworks */,
+				AB5C89701E60BC1400149D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB5C89741E60BC1400149D32 /* PBXTargetDependency */,
+			);
+			name = MiraclePillUITests;
+			productName = MiraclePillUITests;
+			productReference = AB5C89721E60BC1400149D32 /* MiraclePillUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB5C894B1E60BC1400149D32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Jonathan;
+				TargetAttributes = {
+					AB5C89521E60BC1400149D32 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7PJ49B85V4;
+						ProvisioningStyle = Automatic;
+					};
+					AB5C89661E60BC1400149D32 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7PJ49B85V4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB5C89521E60BC1400149D32;
+					};
+					AB5C89711E60BC1400149D32 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7PJ49B85V4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB5C89521E60BC1400149D32;
+					};
+				};
+			};
+			buildConfigurationList = AB5C894E1E60BC1400149D32 /* Build configuration list for PBXProject "MiraclePill" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB5C894A1E60BC1400149D32;
+			productRefGroup = AB5C89541E60BC1400149D32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB5C89521E60BC1400149D32 /* MiraclePill */,
+				AB5C89661E60BC1400149D32 /* MiraclePillTests */,
+				AB5C89711E60BC1400149D32 /* MiraclePillUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB5C89511E60BC1400149D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5C89611E60BC1400149D32 /* LaunchScreen.storyboard in Resources */,
+				AB5C895E1E60BC1400149D32 /* Assets.xcassets in Resources */,
+				AB5C895C1E60BC1400149D32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5C89651E60BC1400149D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5C89701E60BC1400149D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB5C894F1E60BC1400149D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5C89591E60BC1400149D32 /* ViewController.swift in Sources */,
+				AB5C89571E60BC1400149D32 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5C89631E60BC1400149D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5C896C1E60BC1400149D32 /* MiraclePillTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5C896E1E60BC1400149D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5C89771E60BC1400149D32 /* MiraclePillUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB5C89691E60BC1400149D32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB5C89521E60BC1400149D32 /* MiraclePill */;
+			targetProxy = AB5C89681E60BC1400149D32 /* PBXContainerItemProxy */;
+		};
+		AB5C89741E60BC1400149D32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB5C89521E60BC1400149D32 /* MiraclePill */;
+			targetProxy = AB5C89731E60BC1400149D32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB5C895A1E60BC1400149D32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB5C895B1E60BC1400149D32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB5C895F1E60BC1400149D32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB5C89601E60BC1400149D32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB5C89791E60BC1400149D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB5C897A1E60BC1400149D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB5C897C1E60BC1400149D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7PJ49B85V4;
+				INFOPLIST_FILE = MiraclePill/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.MiraclePill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AB5C897D1E60BC1400149D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7PJ49B85V4;
+				INFOPLIST_FILE = MiraclePill/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.MiraclePill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AB5C897F1E60BC1400149D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7PJ49B85V4;
+				INFOPLIST_FILE = MiraclePillTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.MiraclePillTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiraclePill.app/MiraclePill";
+			};
+			name = Debug;
+		};
+		AB5C89801E60BC1400149D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7PJ49B85V4;
+				INFOPLIST_FILE = MiraclePillTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.MiraclePillTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiraclePill.app/MiraclePill";
+			};
+			name = Release;
+		};
+		AB5C89821E60BC1400149D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7PJ49B85V4;
+				INFOPLIST_FILE = MiraclePillUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.MiraclePillUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MiraclePill;
+			};
+			name = Debug;
+		};
+		AB5C89831E60BC1400149D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7PJ49B85V4;
+				INFOPLIST_FILE = MiraclePillUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.MiraclePillUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MiraclePill;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB5C894E1E60BC1400149D32 /* Build configuration list for PBXProject "MiraclePill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5C89791E60BC1400149D32 /* Debug */,
+				AB5C897A1E60BC1400149D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5C897B1E60BC1400149D32 /* Build configuration list for PBXNativeTarget "MiraclePill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5C897C1E60BC1400149D32 /* Debug */,
+				AB5C897D1E60BC1400149D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB5C897E1E60BC1400149D32 /* Build configuration list for PBXNativeTarget "MiraclePillTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5C897F1E60BC1400149D32 /* Debug */,
+				AB5C89801E60BC1400149D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB5C89811E60BC1400149D32 /* Build configuration list for PBXNativeTarget "MiraclePillUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5C89821E60BC1400149D32 /* Debug */,
+				AB5C89831E60BC1400149D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB5C894B1E60BC1400149D32 /* Project object */;
+}
